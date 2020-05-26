@@ -1,0 +1,251 @@
+body,html
+{
+    height: 100%;
+
+    width: 100%;
+}
+.dd,.nn
+{
+    width: 30px;
+    height: 30px;   
+}
+.aa,.zz,.hh
+{
+    width: 50px;
+    height: 50px;
+}
+.mm,.oo
+{
+    width: 45px;
+    height: 45px;
+}
+.shsh
+{
+    width: 70px;
+    height: 70px;
+}
+
+.glaxy
+{
+    background: url(images/glaxy.jpg) no-repeat;
+    background-size: 100% 180%;
+    position: relative;
+    background-attachment: fixed;
+    margin: 200px 0;
+
+}
+@keyframes sunfire
+{
+    from { box-shadow: 0 0 50px 0px rgb(255, 81, 0); }
+    to { box-shadow: 0 0 80px 20px rgb(252, 122, 0); }
+}
+.sun
+{
+    background: url(images/شمس.png ) no-repeat;
+
+    background-size: cover;
+    background-size: 110% 110%;
+
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    left: 50%;
+    top: 50%;
+    margin-left: -60px;
+    margin-top: -60px;
+    position: absolute;
+    box-shadow: 0px 0px 50px 5px  rgb(255, 51, 0)  ;
+    animation: sunfire 1s infinite alternate;
+}
+@keyframes spin
+{
+    from{ transform: rotate(0); }
+    to  { transform: rotate(360deg); }
+}
+
+.earth
+{
+border: 0.299px solid rgba(190, 190, 190,0.55);
+width: 300px;
+height: 300px;
+border-radius: 100%;
+top: 42.5%;
+left: 50%;
+position: absolute;
+margin-top: -150px;
+margin-left: -150px;
+animation: spin 30s linear infinite ;
+transform: scale(3);
+}
+.d
+{
+    width: 230px;
+    height: 170px;
+    margin-top: -50px;
+    margin-left: -100px;
+    animation: spin 20s linear infinite ;
+
+}
+.z
+{
+    width: 345px;
+    height: 255px;
+    margin-top: -100px;
+    margin-left: -150px;
+    animation: spin 28s linear infinite ;
+
+}
+.a
+{
+    width: 490px;
+    height: 340px;
+    margin-top: -140px;
+    margin-left: -220px;   
+    animation: spin 35s linear infinite ;
+
+}
+
+.m
+{
+    width: 620px;
+    height: 460px;
+    margin-top: -210px;
+    margin-left: -280px;  
+    animation: spin 42s linear infinite ;
+
+}
+.sh
+{
+    border: 0.299px solid rgba(190, 190, 190,0.55);
+
+    width: 820px;
+    height: 620px;
+    margin-top: -290px;
+    margin-left: -380px; 
+    animation: spin 75s linear infinite ;
+ 
+}
+.h
+{
+    border: 0.299px solid rgba(190, 190, 190,0.35);
+
+    width: 980px;
+    height: 720px;
+    margin-top: -320px;
+    margin-left: -480px; 
+    animation: spin 95s linear infinite ;
+
+}
+.o
+{
+    border: 0.299px solid rgba(190, 190, 190,0.25);
+
+    width: 1140px;
+    height: 920px;
+    margin-top: -420px;
+    margin-left: -560px; 
+    animation: spin 195s linear infinite ;
+ 
+}
+
+.n
+{
+    border: 0.299px solid rgba(190, 190, 190,0.15);
+
+    width: 1300px;
+    height: 1140px;
+    margin-top: -520px;
+    margin-left: -640px;
+    animation: spin 265s linear infinite ;
+
+}
+@keyframes imgspin
+{
+    from { transform: rotate(0);}
+    to   { transform: rotate(360deg);}
+}
+.imgearth
+{
+top: 50%;
+position: absolute;
+animation: imgspin 11s linear infinite;
+
+}
+.content
+{
+    background: url(../web-work/images/كبسولة.jpg);
+    background-size: cover;
+    width: 310px;
+    height: 230px;
+    text-align: center;
+    z-index: 200;
+    color: rgb(14, 253, 233);
+    border-radius: 45%;
+    position: absolute;
+    top: 125px;
+    right: 310px;
+
+
+}
+
+.layer
+{
+    z-index: 22;
+    background-color: rgba(0, 0, 0, 0.80);
+position: absolute;
+width: 310px;
+height: 230px;
+border-radius: 45%;
+
+}
+.hvr-bubble-float-top
+{
+    display:inline-block;
+    vertical-align:middle;
+    -webkit-transform:perspective(1px) translateZ(0);
+    transform:perspective(1px) translateZ(0);
+    box-shadow:0 0 1px rgba(0,0,0,0);
+    position:relative;
+    -webkit-transition-duration:.3s;
+    transition-duration:.3s;
+    -webkit-transition-property:transform;
+    transition-property:transform}
+
+    .hvr-bubble-float-top:before
+    {
+        position:absolute;
+        z-index:-1;
+        content:'';
+        left:calc(50% - 10px);
+        top:0;
+        border-style:solid;
+        border-width:0 10px 10px;
+        border-color:transparent transparent #181717;
+        -webkit-transition-duration:.3s;
+        transition-duration:.3s;
+        -webkit-transition-property:transform;
+        transition-property:transform
+    }
+    .hvr-bubble-float-top:active,.hvr-bubble-float-top:focus,.hvr-bubble-float-top:hover{
+        -webkit-transform:translateY(10px);transform:translateY(10px)
+    }
+    .hvr-bubble-float-top:active:before,.hvr-bubble-float-top:focus:before,.hvr-bubble-float-top:hover:before{
+        -webkit-transform:translateY(-10px);transform:translateY(-10px)}
+h3{
+    display: block;
+    color: #ef4339;
+    font-size: 28px;
+    margin-block-end: 0em;
+    margin-bottom: 10px;
+    z-index: 25;
+
+}
+
+p
+{
+    margin-block-start: 0em;
+    z-index: 502;
+    color: #35b5c8;
+    line-height: 26px;
+    font-size: 21px;
+}
